@@ -1,0 +1,73 @@
+/* index.html START */
+
+header {
+    min-height: 90vh;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    text-align-last: auto;
+    padding: 25px 80px;
+    margin: 0 auto;
+    white-space: normal;
+    line-height: 3em;
+
+}
+
+.features {
+    min-height: 90vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align-last: auto;
+    padding:inherit;
+    z-index: 9;
+}
+
+/* index.html END */
+
+
+/* login.html START */
+
+html,
+#LoginPage {
+  height: 100%;
+  
+}
+
+#LoginPage {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* login.html END */
+
